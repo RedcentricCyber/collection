@@ -1,0 +1,7 @@
+c:\users\marc\documents\visual studio 2010\Projects\RepeatAfterMe\RepeatAfterMe\obj\Debug\ResolveAssemblyReference.cache
+c:\users\marc\documents\visual studio 2010\Projects\RepeatAfterMe\RepeatAfterMe\bin\RepeatAfterMe.dll
+c:\users\marc\documents\visual studio 2010\Projects\RepeatAfterMe\RepeatAfterMe\bin\RepeatAfterMe.pdb
+c:\users\marc\documents\visual studio 2010\Projects\RepeatAfterMe\RepeatAfterMe\obj\Debug\RepeatAfterMe.dll
+c:\users\marc\documents\visual studio 2010\Projects\RepeatAfterMe\RepeatAfterMe\obj\Debug\RepeatAfterMe.pdb
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMe\RepeatAfterMe\bin\Noemax.WCFX.Trial.dll
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMe\RepeatAfterMe\bin\Noemax.WCFX.Trial.xml

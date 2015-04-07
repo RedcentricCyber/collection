@@ -1,0 +1,156 @@
+body {
+	font-family: verdana, helvetica, sans-serif;
+	color: #000;
+    background-color: #CADBE4;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+}
+
+img.workspace {
+    margin: 0 10px;
+}
+
+#container {
+    margin: 0 auto;
+    background-color: #E9F2F5;
+    padding: 20px;
+}
+
+#home-content {
+    width: 65%;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#home-content h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#home-content h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#home-content a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-content {
+    width: 65%;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    float: left;
+}
+
+#main-content h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#main-content h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#main-content img {
+    float: left;
+    margin-right: 50px;
+}
+
+.robot {
+    background: url('/assets/images/droid2.svg') bottom right no-repeat;
+    background-size: 200px;
+}
+
+#obligatory_sponsor_logo {
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    float: left;
+}
+
+form {
+    width: 300px;
+    height: 220px;
+    display: inline-block;
+    float: left;
+    #padding-left: 50px;
+}
+
+fieldset {
+    border: 0;
+}
+
+input {
+    background-color: #ccc;
+    -webkit-border-radius: .4em;
+    -moz-border-radius: .4em;
+    border-radius: .4em;
+
+    border: none;
+    width: 280px;
+    height: 28px;
+    color: #000;
+    display: block;
+    padding: 0;
+    margin: 10px 0;
+}
+
+button {
+    width: 60px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    float: right;
+
+    background: #666;
+    color: #fff;
+    
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    border-radius: .2em;
+}
+
+button:hover {
+    color: #000;
+}
+
+button.start {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    float: left;
+    margin: 50px 0 70px 100px;
+
+    background: #666;
+    color: #fff;
+    
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    border-radius: .2em;
+}
+
+button.start:hover {
+    color: #fff;
+}
+
+.error {
+    color: #f00;
+}
+
+.info {
+    color: #000;
+}

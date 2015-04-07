@@ -1,0 +1,12 @@
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\bin\Release\RepeatAfterMeClient.exe.config
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\bin\Release\RepeatAfterMeClient.exe
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\bin\Release\RepeatAfterMeClient.pdb
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\obj\x86\Release\RepeatAfterMeClient.exe
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\obj\x86\Release\RepeatAfterMeClient.pdb
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\bin\Release\Noemax.WCFX.Trial.dll
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\bin\Release\Noemax.WCFX.Trial.xml
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\bin\Release\RepeatAfterMeClient.exe.manifest
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\bin\Release\RepeatAfterMeClient.application
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\obj\x86\Release\RepeatAfterMeClient.exe.manifest
+C:\Users\Marc\documents\visual studio 2010\Projects\RepeatAfterMeClient\RepeatAfterMeClient\obj\x86\Release\RepeatAfterMeClient.application

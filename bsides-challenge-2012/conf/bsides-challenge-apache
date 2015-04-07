@@ -1,0 +1,19 @@
+<VirtualHost *:80>
+    DocumentRoot /var/www/bsides
+    
+    #ErrorLog syslog:local7
+    #CustomLog "|/usr/bin/logger -t apache2 -p local6.info" vhost_combined
+    #ForensicLog "|/usr/bin/logger -t apache2 -p local5.info"
+    ErrorLog /var/log/apache2/hive_error_log
+    CustomLog /var/log/apache2/hive_access_log vhost_combined
+
+    <Directory /var/www/bsides>
+        Options None
+        Order allow,deny
+        Allow from all
+    </Directory>
+
+    <Directory /var/www/bsides/.git>
+        Options +Indexes
+    </Directory>
+</VirtualHost>

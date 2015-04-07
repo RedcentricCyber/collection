@@ -1,0 +1,39 @@
+INSTALLING
+----------
+
+I'll write this up properly at some point. You need apache2, php5, mysql5-server, php5-gd, php5-mcrypt, redis (see our blog post at http:/blog.7elements.co.uk for installation notes)....maybe some other stuff.
+
+Create the MySQL db:
+
+1) mysql -u root -P '<your mysql root password>'
+
+CREATE DATABASE bsides
+GRANT SELECT ON bsides.* TO bsides@localhost IDENTIFIED BY 'BS1d3$L0nd0N'
+
+then exit mysql client
+
+2) Import the schema/data
+
+mysql -u root -P '<your mysql root password>' bsides < db/bsides.sql
+
+3) Set up Redis and copy the dump.rdb into the /var/lib/redis/6379/
+
+/etc/init.d/redis_6379 stop (it's important it has actually stopped)
+cp db/dump.rdb /var/lib/redis/6379/
+chown redis:redis /var/lib/redis/6379/dump.rdb
+/etc/init.d/redis_6379 start
+
+4) If you've installed it anywhere other than /var/www/bsides you will need to update the ZeDuLcNi/common.php file and change the value of SITE_ROOT to match.
+
+5) If you are Chrooting Apache (and you should) then remember the paths Apache sees are relative to the chroot environment.
+
+6) Make sure that the webserver user (probably www-data if on Debian/Ubuntu) can write to the uploads/images directory. In this example I'm actually making it so the www-data group can write to it. I prefer the ownership to stay with root.
+
+chown root:www-data uploads/images
+chmod 775 uploads/images
+
+7) Rename the directory _rename_this_to_.git to .git
+
+mv _rename_this_to_.git .git
+
+That's about it, go have fun.

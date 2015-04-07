@@ -1,0 +1,18 @@
+database:
+    username: bsides
+    password: BS1d3$L0nd0N
+    dbname: bsides
+    hostname: 127.0.0.1
+
+encryption:
+    key: R3allyR3allyS3cr3t
+
+uploads:
+    directory: uploads/images
+
+profile:
+    avatar_directory: avatars
+
+challenge:
+    email_address: londonevents@securitybsides.org.uk
+    closing_date: April 1st 2012

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Marc\Documents\Development\VS" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="File System" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/Noemax.WCFX.Trial.dll" publishTime="08/13/2012 11:46:24" />
+    <file relUrl="bin/RepeatAfterMe.pdb" publishTime="08/31/2012 22:51:18" />
+    <file relUrl="Web.config" publishTime="08/31/2012 23:32:29" />
+    <file relUrl="bin/Noemax.WCFX.Trial.xml" publishTime="08/13/2012 11:45:08" />
+    <file relUrl="RepeaterService.svc" publishTime="08/29/2012 15:54:37" />
+    <file relUrl="bin/RepeatAfterMe.dll" publishTime="08/31/2012 22:51:18" />
+  </publishProfile>
+</publishData>
